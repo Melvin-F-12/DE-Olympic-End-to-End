@@ -1,0 +1,39 @@
+{
+	"name": "Excel2",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"sheetName": "Details",
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "EntriesGender.xlsx",
+				"folderPath": "unprocessed-raw-data",
+				"container": "olympic-container"
+			},
+			"firstRowAsHeader": true
+		},
+		"schema": [
+			{
+				"name": "Discipline",
+				"type": "String"
+			},
+			{
+				"name": "Female",
+				"type": "String"
+			},
+			{
+				"name": "Male",
+				"type": "String"
+			},
+			{
+				"name": "Total",
+				"type": "String"
+			}
+		]
+	}
+}

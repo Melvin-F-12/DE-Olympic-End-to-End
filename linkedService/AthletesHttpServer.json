@@ -1,15 +1,13 @@
 {
 	"name": "AthletesHttpServer",
-	"type": "Microsoft.DataFactory/factories/linkedservices",
 	"properties": {
 		"annotations": [],
 		"type": "HttpServer",
 		"typeProperties": {
-			"url": "https://raw.githubusercontent.com/Melvin-F-12/DE-Olympic-End-to-End/master/Dataset/Athletes.xlsx",
+			"url": "https://raw.githubusercontent.com/darshilparmar/tokyo-olympic-azure-data-engineering-project/main/data/Athletes.csv",
 			"enableServerCertificateValidation": true,
-			"authenticationType": "Basic",
-			"userName": "Melvin-F-12",
-			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDRFNzdFMEJGLTRFQUItNDMyMC05OEMwLTI5N0EyMDhFRENBMl85MDNiZTA3Zi1lMDQ2LTQ0N2YtYThlMS0wNGM5ODI5NDFjZGMiDQp9"
+			"authenticationType": "Anonymous"
 		}
-	}
+	},
+	"type": "Microsoft.DataFactory/factories/linkedservices"
 }

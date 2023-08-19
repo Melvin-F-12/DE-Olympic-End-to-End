@@ -1,0 +1,51 @@
+{
+	"name": "Excel3",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"sheetName": "Details",
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "Medals.xlsx",
+				"folderPath": "unprocessed-raw-data",
+				"container": "olympic-container"
+			},
+			"firstRowAsHeader": true
+		},
+		"schema": [
+			{
+				"name": "Rank",
+				"type": "String"
+			},
+			{
+				"name": "Team/NOC",
+				"type": "String"
+			},
+			{
+				"name": "Gold",
+				"type": "String"
+			},
+			{
+				"name": "Silver",
+				"type": "String"
+			},
+			{
+				"name": "Bronze",
+				"type": "String"
+			},
+			{
+				"name": "Total",
+				"type": "String"
+			},
+			{
+				"name": "Rank by Total",
+				"type": "String"
+			}
+		]
+	}
+}

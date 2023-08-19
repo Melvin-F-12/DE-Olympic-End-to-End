@@ -1,0 +1,39 @@
+{
+	"name": "Excel1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"sheetName": "Details",
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "Coaches.xlsx",
+				"folderPath": "unprocessed-raw-data",
+				"container": "olympic-container"
+			},
+			"firstRowAsHeader": true
+		},
+		"schema": [
+			{
+				"name": "Name",
+				"type": "String"
+			},
+			{
+				"name": "NOC",
+				"type": "String"
+			},
+			{
+				"name": "Discipline",
+				"type": "String"
+			},
+			{
+				"name": "Event",
+				"type": "String"
+			}
+		]
+	}
+}
