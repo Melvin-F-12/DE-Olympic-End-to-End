@@ -5,11 +5,11 @@
 		"annotations": [],
 		"type": "HttpServer",
 		"typeProperties": {
-			"url": "https://raw.githubusercontent.com/Melvin-F-12/DE-Olympic-End-to-End/master/Dataset/Athletes.xlsx",
+			"url": "https://github.com/Melvin-F-12/DE-Olympic-End-to-End/blob/f279c010109d2002cce3589adfc636f6791f9586/Dataset/Athletes.xlsx",
 			"enableServerCertificateValidation": true,
 			"authenticationType": "Basic",
 			"userName": "Melvin-F-12",
-			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDRFNzdFMEJGLTRFQUItNDMyMC05OEMwLTI5N0EyMDhFRENBMl85MDNiZTA3Zi1lMDQ2LTQ0N2YtYThlMS0wNGM5ODI5NDFjZGMiDQp9"
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDRFNzdFMEJGLTRFQUItNDMyMC05OEMwLTI5N0EyMDhFRENBMl8wZDg1YTM2YS1jMmJlLTRjZTctYTA5Mi1mOGMwYTE4NTQ2MmMiDQp9"
 		}
 	}
 }
