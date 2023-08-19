@@ -1,0 +1,3 @@
+Application (client) ID - 5ad03d6f-6abb-408e-a67f-f70c08b56f99
+Directory (tenant) ID - fe876b56-3d6f-49c1-9dec-263eadb472dc
+secret-olympic - aDO8Q~IPHWYTVx0B52Ig-bntF3ZRT1FtHYfgBbX_
